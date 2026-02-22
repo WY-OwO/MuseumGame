@@ -1,0 +1,67 @@
+/*Google Font Imported*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+/*Font Info end*/
+
+body {
+    background-color: rgb(199,190,180);
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#bodyBG {
+    max-width:1300px;
+    margin:auto;
+    background-color: inherit;
+    border-style: none none solid none;
+    border-color:#232323;
+    border-width: medium;
+}
+
+
+#navBar {
+    text-align: center;
+    grid-row: 1;
+    border-style: none none solid none;
+    border-color:#232323;
+    border-width:medium;
+    text-transform: uppercase;
+}
+
+.buttonNav{
+    border: none;
+    background-color: inherit;
+    color: #11151C;
+    padding: 15px;
+    margin-inline: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width:30vh;
+}
+
+.buttonNav:hover{
+    background-color: rgb(217, 209, 200);
+}
+
+
