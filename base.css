@@ -41,6 +41,7 @@ body {
     text-align: center;
     grid-row: 1;
     text-transform: uppercase;
+    padding: 0;
 }
 
 .buttonNav{
