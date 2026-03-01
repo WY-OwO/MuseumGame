@@ -28,7 +28,7 @@ body {
 
 
 #bodyBG {
-    max-width:1300px;
+    max-width:1270px;
     margin:auto;
     background-color: inherit;
     border-style: none none solid none;
@@ -40,24 +40,22 @@ body {
 #navBar {
     text-align: center;
     grid-row: 1;
-    border-style: none none solid none;
-    border-color:#232323;
-    border-width:medium;
     text-transform: uppercase;
 }
 
 .buttonNav{
+    grid-row: 1;
     border: none;
     background-color: inherit;
     color: #11151C;
-    padding: 15px;
-    margin-inline: 40px;
+    padding: 10px;
+    margin-inline: 5px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
     transition-duration: 0.2s;
     cursor: pointer;
-    width:30vh;
+    width:400px;
 }
 
 .buttonNav:hover{
@@ -65,3 +63,39 @@ body {
 }
 
 
+li {
+    list-style-type: none;
+}
+
+/*The cheat for the upper title bar thingy*/
+#titleBGFaux{
+    width: 100%;
+    top:0;
+    right:0;
+    position:absolute;
+    display:flex;
+    justify-content: top;
+    align-items: top;
+    flex-direction: column;
+}
+
+/*Title overlay on image*/
+#titleBG{
+    width: 100%;
+    top:0;
+    right:0;
+    position:absolute;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    font-size: 450%;
+    font-weight:bold;
+    padding: 50px;
+    line-height: 400%;
+}
+
+.image{
+    width:max-content;
+    position:relative;
+}
