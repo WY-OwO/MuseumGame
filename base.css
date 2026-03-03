@@ -72,11 +72,10 @@ li {
 #titleBGFaux{
     width: 100%;
     top:0;
-    right:0;
     position:absolute;
-    display:flex;
     justify-content: top;
     align-items: top;
+    display:flex;
     flex-direction: column;
 }
 
@@ -99,4 +98,27 @@ li {
 .image{
     width:max-content;
     position:relative;
+}
+
+/*Fixed box following while scrolling*/
+.Fixed
+{
+    position: fixed;
+    bottom:0;
+    right:0;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:25px;
+    text-align: center;
+    background-color:rgb(149,137,126);
+    width:500px;
+    height:100px;
+    justify-content: center;
+    font-size:x-large;
+    padding:12px;
+}
+.Fixed:hover {
+    transition:0.2s;
+    background-color: rgb(106, 96, 87);
+    color:#EFEEEB;
 }
