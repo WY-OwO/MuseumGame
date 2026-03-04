@@ -95,11 +95,6 @@ li {
     line-height: 400%;
 }
 
-.image{
-    width:max-content;
-    position:relative;
-}
-
 /*Fixed box following while scrolling*/
 .Fixed
 {
