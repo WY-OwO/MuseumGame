@@ -103,7 +103,7 @@ li {
     right:0;
     display: grid;
     grid-template-columns: auto auto;
-    margin:25px;
+    margin-bottom: 125px;
     text-align: center;
     background-color:rgb(149,137,126);
     width:500px;
