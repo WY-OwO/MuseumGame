@@ -73,11 +73,7 @@ li {
 
 /*The cheat for the upper title bar thingy*/
 #titleBGFaux{
-    width: 100%;
-    top:0;
     position:absolute;
-    justify-content: top;
-    align-items: top;
     display:flex;
     flex-direction: column;
 }
@@ -108,7 +104,8 @@ li {
     grid-template-columns: auto auto;
     margin-bottom: 125px;
     text-align: center;
-    background-color:rgb(149,137,126);
+    background-color:rgb(106, 97, 87);
+    color:#ffffff;
     width:500px;
     height:100px;
     justify-content: center;
@@ -117,6 +114,5 @@ li {
 }
 .Fixed:hover {
     transition:0.2s;
-    background-color: rgb(106, 96, 87);
-    color:#EFEEEB;
+    background-color: rgb(71, 58, 44);
 }
