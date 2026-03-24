@@ -23,7 +23,7 @@
 
 
 body {
-    background-color: rgb(199,190,180);
+    background-color: rgb(224, 213, 201);
     font-family: "Cinzel Decorative", serif;
     font-weight: 400;
     font-style: normal;
@@ -102,7 +102,7 @@ li {
     right:0;
     display: grid;
     grid-template-columns: auto auto;
-    margin-bottom: 125px;
+    margin-bottom: 65px;
     text-align: center;
     background-color:rgb(106, 97, 87);
     color:#ffffff;
