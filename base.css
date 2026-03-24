@@ -47,7 +47,7 @@ body {
     padding: 0;
 }
 
-.buttonNav{
+.buttonNav, .buttonFake{
     grid-row: 1;
     border: none;
     background-color: inherit;
@@ -64,6 +64,10 @@ body {
 
 .buttonNav:hover{
     background-color: rgb(217, 209, 200);
+}
+
+.buttonFake:hover{
+    cursor: initial;
 }
 
 
@@ -115,4 +119,10 @@ li {
 .Fixed:hover {
     transition:0.2s;
     background-color: rgb(71, 58, 44);
+}
+
+/* itch.io embed */
+#virtual-tour
+{
+    text-align: center;
 }

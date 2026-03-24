@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <!--Name that shows up on the tab-->
-        <title>Museum Game</title>
+        <title>Natural Science Museum</title>
+        <header><div id="top"></div></header>
 
         <!-- Bootstrap CSS v5.2.1; in case I habitually use it and can't tell if I did or not -->
         <link
@@ -17,7 +18,7 @@
     </head>
 
     <body>
-        <a href="https://raddishradish.itch.io/museum-tour">
+        <a href="#virtual-tour">
             <div class="Fixed" style="border: 3px dotted #ffffff;">
                 <p style="border-style: none dotted none none;">GSND Museum Virtual Tour!</p>
                 <p style="justify-content: center; padding: 15px;">Visit Now!</p>
@@ -28,9 +29,9 @@
         <main id="bodyBG">
             <img src="Images/TopDecor.png">
             <div id="navBar" class="container">
-                <button class="buttonNav">Visit</button>
-                <button class="buttonNav">Exhibition</button>
-                <a href="https://gsnd2027.carrd.co/"><button class="buttonNav">See More</button></a>
+                <button class="buttonFake">Visit</button>
+                <button class="buttonFake">Exhibitions</button>
+                <button class="buttonFake">Opportunities</button>
             </div>
 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="display:flex;">
@@ -55,7 +56,7 @@
             
             <br>
             
-            <p style="text-align: center; font-size: 25px;">Proudly serving our community since <b>1920</b>!</p>
+            <p style="text-align: center; font-size: 25px;">Proudly serving our community for <b>150</b> years!</p>
             <p style="text-align: center; font-size: 25px;">Find a <b style="color: rgb(191, 139, 16);">Golden Sacabambapsis Trophy</b> in our 
             virtual tour and <br>win <b>free museum tickets!</b></p>
 
@@ -83,11 +84,16 @@
                 <img src="Images/hint8.PNG" style="max-width: 1270px;">
             </div>
             <br> 
+
+            <div id="virtual-tour">
+                <iframe frameborder="0" src="https://itch.io/embed-upload/16915027?color=333333" allowfullscreen="" width="1200" height="725"><a href="https://raddishradish.itch.io/museum-tour">Play Museum Tour on itch.io</a></iframe>            
+            </div>
+            <div id ="#small-container"><p style="text-align: center; font-size: 18px;"><br>This virtual tour, alongside the brand-new sacambabaspis exhibition, was commissioned thanks to <br>your generous support to celebrate our <b>150</b>th anniversary. Please enjoy it!<br></p></div>
             
             <div id="navBar" class="container" style="width: 1270px;">
-                <button class="buttonNav">About Us</button>
-                <button class="buttonNav">Support</button>
-                <button class="buttonNav">Opportunity</button>
+                <a href="https://gsnd2027.carrd.co/" target="_blank"><button class="buttonNav">About Us</button></a>
+                <a href="#top"><button class="buttonNav">Return to top</button></a>
+                <button class="buttonFake">Support</button>
             </div>
         </main>
     </body>
